@@ -1413,7 +1413,7 @@ footer {
 }
 
 #desktop-nav .nav-links a:hover {
-  color: #f1f5f9;
+  color: var(--text-primary);
 }
 
 #hamburger-nav {
@@ -1713,16 +1713,15 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
   font-weight: 600;
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
 .title {
   font-size: 3rem;
   font-weight: 800;
-  color: #f1f5f9;
+  color: var(--text-primary);
   margin-bottom: 1rem;
   line-height: 1.2;
-  text-align: center;
+  margin-left: 1vh;
 }
 
 .section__text__p2 {
@@ -1863,7 +1862,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 .about-content-title {
   font-size: clamp(1.25rem, 2.2vw, 1.8rem);
   line-height: 1.35;
-  color: #f8fafc;
+  color: var(--text-primary);
 }
 
 .aboutme1 p {
@@ -1951,7 +1950,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 .text-xl {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #f1f5f9;
+  color: var(--text-primary);
 }
 
 .text-year {
@@ -2028,7 +2027,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 
 .section-header h3 {
   font-size: 1.5rem;
-  color: #f1f5f9;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -2121,7 +2120,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 
 .credential-title {
   font-weight: 700;
-  color: #f1f5f9;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -2155,7 +2154,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 .experience-sub-title {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #f1f5f9;
+  color: var(--text-primary);
   margin-bottom: 1.5rem;
 }
 
@@ -2186,7 +2185,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 }
 
 .skills-article h3 {
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-size: 1rem;
 }
 
@@ -2308,7 +2307,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 }
 
 .marquee-track span {
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-weight: 600;
   white-space: nowrap;
   flex-shrink: 0;
@@ -2330,7 +2329,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 
 .blog-intro h3 {
   font-size: 1.5rem;
-  color: #f1f5f9;
+  color: var(--text-primary);
   margin-bottom: 1rem;
 }
 
@@ -2376,7 +2375,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 }
 
 .blog-card h3 {
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
@@ -2445,7 +2444,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 }
 
 .contact-info-container a {
-  color: #f1f5f9;
+  color: var(--text-primary);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -2462,7 +2461,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
 }
 
 .contact-form-card h3 {
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
 }
@@ -2491,7 +2490,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  color: #f1f5f9;
+  color: var(--text-primary);
   font-family: inherit;
   transition: all 0.3s ease;
 }
@@ -2600,7 +2599,7 @@ footer {
 }
 
 .nav-links-container a:hover {
-  color: #f1f5f9;
+  color: var(--text-primary);
   background: rgba(108, 99, 255, 0.2);
   border-color: rgba(108, 99, 255, 0.5);
 }
@@ -2840,4 +2839,8 @@ footer p {
 footer p,
 .nav-links-container a {
   color: var(--text-secondary);
+}
+
+.about-content-title {
+  color: var(--text-primary);
 }
