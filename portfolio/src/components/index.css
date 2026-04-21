@@ -1713,6 +1713,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
   font-weight: 600;
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .title {
@@ -1721,7 +1722,7 @@ main > section:nth-of-type(7) { animation-delay: 0.3s; }
   color: var(--text-primary);
   margin-bottom: 1rem;
   line-height: 1.2;
-  margin-left: 1vh;
+  text-align: center;
 }
 
 .section__text__p2 {
